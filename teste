@@ -1,1 +1,45 @@
+#include <stdio.h>
 
+int main (){
+       
+    char Estado [10];
+    char Carta [10];
+    char Cidade [10];
+    int População; 
+    float Área;
+    float PIB;
+    int Turísticos;
+
+    printf("CARTA 1: \n");
+
+    printf("Digite qual Etado? \n");
+    scanf ("%s", &Estado);
+
+    printf("Digite o Código da carta: \n");
+    scanf ("%s", &Carta);
+
+    printf("Digite a Cidade: \n");
+    scanf ("%s", &Cidade);
+
+    printf("Digite a População: \n");
+    scanf("%d", &População);
+
+    printf("Digie a Área em km²: \n");
+    scanf("%f", &Área);
+
+    printf("Dgite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("Quantos pontos Tuísticos? \n");
+    scanf("%d", &Turísticos);
+
+    printf("Estado: %s \n", Estado);
+    printf("Código da Carta: %s \n", Carta);
+    printf("Cidade: %s \n", Cidade);
+    printf("População: %d \n", População);
+    printf("Área em km²: %f \n", Área);
+    printf("PIB: %f \n", PIB);
+    printf("Pontos Tuísticos: %d \n", Turísticos);
+
+    return 0;
+}
