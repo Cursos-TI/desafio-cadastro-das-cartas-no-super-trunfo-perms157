@@ -41,5 +41,45 @@ int main (){
     printf("PIB: %f \n", PIB);
     printf("Pontos Tuísticos: %d \n", Turísticos);
 
+
+    char Estado2 [15];
+    char Carta2 [15];
+    char Cidade2 [15];
+    int População2; 
+    float Área2;
+    float PIB2;
+    int Turísticos2;
+
+    printf("CARTA 2: \n");
+
+    printf("Digite qual Etado? \n");
+    scanf ("%s", &Estado2);
+
+    printf("Digite o Código da carta: \n");
+    scanf ("%s", &Carta2);
+
+    printf("Digite a Cidade: \n");
+    scanf ("%s", &Cidade2);
+
+    printf("Digite a População: \n");
+    scanf("%d", &População2);
+
+    printf("Digie a Área em km²: \n");
+    scanf("%f", &Área2);
+
+    printf("Dgite o PIB: \n");
+    scanf("%f", &PIB2);
+
+    printf("Quantos pontos Tuísticos? \n");
+    scanf("%d", &Turísticos2);
+
+    printf("Estado: %s \n", Estado2);
+    printf("Código da Carta: %s \n", Carta2);
+    printf("Cidade: %s \n", Cidade2);
+    printf("População: %d \n", População2);
+    printf("Área em km²: %f \n", Área2);
+    printf("PIB: %f \n", PIB2);
+    printf("Pontos Tuísticos: %d \n", Turísticos2);
+
     return 0;
 }
